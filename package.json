@@ -4,7 +4,7 @@
   "description": "One command to generate REST APIs for any MySql database",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "node index.js -n 80 -r 0.0.0.0",
     "test": "./node_modules/.bin/mocha tests/*.js --exit"
   },
   "keywords": [
